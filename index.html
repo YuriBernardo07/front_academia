@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Projeto</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Academia BodyShape</h2>
+            <ul class="menu-items">
+                <li><a href="#categories">Unidades</a></li>
+                <li><a href="#titles">planos</a></li>
+                <li><a href="#about">Sobre nós</a></li>
+              </ul>
+        </div>
+        <div class="banner">
+            <img src="https://t4.ftcdn.net/jpg/03/56/69/05/360_F_356690509_JiltQy0oDQZ0skJYZVt8uMc9PmGn3MnD.jpg"
+                alt="y">
+        </div>
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Adicionar novo aluno:">
+        <input type="text" id="newQuantity" placeholder="matricula:">
+        <input type="text" id="newPrice" placeholder="mensalidade:">
+        <span onclick="newItem()" class="addBtn">Adicionar</span>
+    </section>
+
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Nome</th>
+                <th>Matricula</th>
+                <th>Mensalidade</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <div class="footer-title">Siga-nos</div>
+        <div class="social-container">
+          <a href="https://instagram.com/devsuperior.ig"
+            ><img src="img/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://youtube.com/devsuperior"
+            ><img src="img/youtube.png" alt="Youtube"
+          /></a>
+        </div>
+      </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
